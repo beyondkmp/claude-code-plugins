@@ -1,0 +1,29 @@
+{
+  "name": "claude-code-plugins",
+  "version": "1.0.0",
+  "description": "A collection of plugins and templates for Claude Code",
+  "files": [
+    "plugins"
+  ],
+  "scripts": {
+    "build": "./build.sh",
+    "prepublishOnly": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/beyondkmp/claude-code-plugins.git"
+  },
+  "keywords": [
+    "claude",
+    "claude-code",
+    "plugins",
+    "templates"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/beyondkmp/claude-code-plugins/issues"
+  },
+  "homepage": "https://github.com/beyondkmp/claude-code-plugins#readme"
+}

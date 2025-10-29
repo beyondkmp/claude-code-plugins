@@ -1,0 +1,18 @@
+# 源文件目录
+external/
+
+# 开发文件
+.git
+.gitignore
+.gitmodules
+build.sh
+.DS_Store
+
+# Node modules
+node_modules/
+
+# 日志文件
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
