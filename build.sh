@@ -16,6 +16,7 @@ echo "📦 Merging submodules into plugins directory..."
 if [ -d "external/claude-code-templates/cli-tool/components" ]; then
   echo "  Copying claude-code-templates components..."
   cp -r external/claude-code-templates/cli-tool/components/* plugins/
+  rm -rf plugins/skills/document-processing
 fi
 
 # Copy anthropics-skills to plugins/skills
